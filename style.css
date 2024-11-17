@@ -1,0 +1,65 @@
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(larm-rmah-AEaTUnvneik-unsplash.jpg);
+    background-size: cover;
+}
+
+.poster {
+    background-color: rgba(255, 255, 255, 0.612);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.details {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #666;
+}
+
+.cta-buttons {
+    margin-top: 20px;
+}
+
+.button {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.donate {
+    background-color: #e74c3c;
+}
+
+.volunteer {
+    background-color: #3498db;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
